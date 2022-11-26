@@ -4,7 +4,7 @@ import time
 
 y = []
 
-#################### Sorting Functions Below ####################
+#################### Sorting Algorithm Below ####################
 def sort():
     #x = words.index(i)
    # print(x)
