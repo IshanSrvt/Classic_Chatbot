@@ -3,7 +3,6 @@ import time
 y = []
 def sort():
     #x = words.index(i)
-
    # print(x)
     if i == 'and':
         y.append(i)
@@ -51,8 +50,6 @@ def format_list():
             pass
 
 
-
-
 user_inp = input("Input: ")
 #print(f"input = {user_inp}")
 user_low = user_inp.lower()
@@ -76,7 +73,7 @@ format_list()
 time.sleep(3)
 #print("split = ",user_split)
 
-if words[0] or words[1] == "what" or "what's" or "whats":
+if words[0] == 'what':
     time.sleep(3)
     print("")
     print("FOUND THE WORD 'what'/'what's'/'whats' ")
