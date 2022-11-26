@@ -67,7 +67,7 @@ for i in user_split:
    # print(i)
     print(" ")
     print("Validating")
-    time.sleep(2)
+    time.sleep(1)
     sort()
     #print(words)
 
@@ -82,6 +82,8 @@ if words[0] == 'what':
     time.sleep(2)
     #print(words[0]," ",words[1])
     print("Bag Of Words = ",words)
+    print("")
+    print("Will send To Main loop of What Now...... Under Construction ;)")
 else:
     time.sleep(2)
     print("I Don't Know that :(")
