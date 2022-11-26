@@ -76,7 +76,7 @@ time.sleep(3)
 if words[0] == 'what':
     time.sleep(3)
     print("")
-    print("FOUND THE WORD 'what'/'what's'/'whats' ")
+    print("FOUND THE WORD 'what'")
     time.sleep(2)
     #print(words[0]," ",words[1])
     print("Bag Of Words = ",words)
