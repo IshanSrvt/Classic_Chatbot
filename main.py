@@ -1,3 +1,5 @@
+# Code By Ishan Srivastava - Classic Chatbot 
+# Python3
 import time
 
 y = []
