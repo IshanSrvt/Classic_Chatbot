@@ -3,6 +3,8 @@
 import time
 
 y = []
+
+#################### Sorting Functions Below ####################
 def sort():
     #x = words.index(i)
    # print(x)
@@ -52,6 +54,8 @@ def format_list():
             pass
 
 
+#################### Taking INPUT Below ####################
+
 user_inp = input("Input: ")
 #print(f"input = {user_inp}")
 user_low = user_inp.lower()
@@ -74,6 +78,8 @@ for i in user_split:
 format_list()
 time.sleep(3)
 #print("split = ",user_split)
+
+#################### Comparision Starts ####################
 
 if words[0] == 'what':
     time.sleep(3)
