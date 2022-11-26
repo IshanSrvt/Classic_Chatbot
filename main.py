@@ -71,7 +71,7 @@ for i in user_split:
    # print(i)
     print(" ")
     print("Validating")
-    time.sleep(1)
+    time.sleep(0.8)
     sort()
     #print(words)
 
